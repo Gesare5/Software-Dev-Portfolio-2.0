@@ -51,7 +51,7 @@ const Canvas = () => {
                 $.fill();
                 for (var i = 0; i < arr.length; ++i) {
                     var f = arr[i];
-                    f.t += .05;
+                    f.t += .0005;
                     f.t = f.t >= Math.PI * 2 ? 0 : f.t;
                     f.y += f.sp;
                     f.x += Math.sin(f.t * tsc) * (f.sz * .3);
