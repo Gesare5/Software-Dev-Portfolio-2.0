@@ -5,7 +5,7 @@ import './App.css';
 // import About from './components/About/About';
 // import Background from './components/Background/Background';
 // import Canvas from './components/Hero/Canvas';
-// import Nav from './components/Nav/Nav';
+import Nav from './components/Nav/Nav';
 // import Services from './components/Services/Services';
 // import Work from './components/Work/Work';
 // import Skills from './components/Skills/Skills';
@@ -13,7 +13,7 @@ import './App.css';
 import color from './colors/colors';
 // import { ReactP5Wrapper } from 'react-p5-wrapper';
 // import sketch from './components/Hero/sketch';
-import SketchComponent from './components/Hero/SketchComponent';
+// import SketchComponent from './components/Hero/SketchComponent';
 // import Footer from './components/Nav/Footer';
 // import Hero from './components/Hero/Hero';
 
@@ -26,17 +26,17 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         {/* <Canvas /> */}
-        {/* <Nav /> */}
-        {/* <Hero id='hero' />
-        <About id='about' />
-        <Services id='services' />
-        <Background id='background' />
-        <Skills id='skills' />
-        <Work id='work' />
-        <Contact id='contact' />
-        <Footer /> */}
+        <Nav />
+        {/* <Hero id='hero' /> */}
+        {/* <About id='about' /> */}
+        {/* <Services id='services' /> */}
+        {/* <Background id='background' /> */}
+        {/* <Skills id='skills' /> */}
+        {/* <Work id='work' /> */}
+        {/* <Contact id='contact' /> */}
+        {/* <Footer /> */}
         {/* <ReactP5Wrapper sketch={sketch} /> */}
-        <SketchComponent />
+        {/* <SketchComponent /> */}
       </div>
     </ThemeProvider>
     // </MuiThemeProvider>

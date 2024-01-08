@@ -38,7 +38,7 @@ const SketchComponent = () => {
     }
 
     const draw = (p) => {
-        p.background(50);
+        p.background(255);
         for (var i = 0; i < bubbles.length; i++) {
             bubbles[i].move();
             bubbles[i].show();
