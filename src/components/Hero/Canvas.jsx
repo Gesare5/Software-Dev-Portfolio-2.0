@@ -38,7 +38,7 @@ const Canvas = () => {
                 snow.x = Math.random() * w;
                 snow.t = Math.random() * (Math.PI * 2);
                 snow.sz = (100 / (10 + (Math.random() * 100))) * sc;
-                snow.sp = (Math.pow(snow.sz * .8, 2) * .5) * sp;
+                snow.sp = (Math.pow(snow.sz * .8, 2) * .15) * sp;
                 snow.sp = snow.sp < min ? min : snow.sp;
                 arr.push(snow);
             }
